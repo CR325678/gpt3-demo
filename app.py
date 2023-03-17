@@ -3,7 +3,7 @@ import openai
 import config
 
 
-openai.api_key = config.api_key
+openai.api_key = st.secrets["apikey"]
 
 
 messages = [
